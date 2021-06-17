@@ -1,7 +1,7 @@
 -
   name: Copy files to remote server
   hosts: all
-  task:
+  tasks:
     - name: copy directory
       copy:
         src: /home/ansiadmin/ansible/temp/trips
