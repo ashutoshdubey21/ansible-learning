@@ -1,6 +1,7 @@
 -
   name: Copy files to remote server
   hosts: all
+  become: yes
   tasks:
     - name: copy directory
       copy:
