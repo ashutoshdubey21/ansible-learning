@@ -1,1 +1,1 @@
-db ansible_host=localhost
+db ansible_connection=local ansible_host=localhost

@@ -1,1 +1,1 @@
-web ansible_host=www.ashutosh.com
+web ansible_host=10.0.2.8
